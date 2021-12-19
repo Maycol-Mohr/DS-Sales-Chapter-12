@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles.css';
-import { ReactComponent as AvatarIcon } from '../../assets/avatar-icon.svg';
 
 type Props = {
-  value: number;
+  value: number | string;
   label: string;
   icon: React.ReactNode;
 };
